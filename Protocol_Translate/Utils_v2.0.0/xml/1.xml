@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protocolModule>
+    <mid>1</mid>
+    <cid>1</cid>
+    <pid>1</pid>
+    <createtime>2016-1-11</createtime>
+    <protocols>
+        <protocol>
+            <cmd>01</cmd>
+            <desc>设置开关</desc>
+            <fields>
+                <field>
+                    <data_length>1</data_length>
+                    <data_type>integer</data_type>
+                    <desc>开关</desc>
+                    <enumerations>
+                        <enumeration>
+                            <desc>开</desc>
+                            <value>1</value>
+                        </enumeration>
+                        <enumeration>
+                            <desc>关</desc>
+                            <value>0</value>
+                        </enumeration>
+                    </enumerations>
+                    <name>power</name>
+                </field>
+                <field>
+                    <data_length>1</data_length>
+                    <data_type>integer</data_type>
+                    <desc>亮度</desc>
+                    <enumerations/>
+                    <max>100</max>
+                    <min>10</min>
+                    <name>light</name>
+                    <unit>亮度百分比</unit>
+                    <unit_f>%</unit_f>
+                </field>
+            </fields>
+            <name>setPower</name>
+            <protocol_type>02</protocol_type>
+        </protocol>
+    </protocols>
+</protocolModule>

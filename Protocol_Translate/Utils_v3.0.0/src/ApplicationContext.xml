@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+	<!-- <bean id="beanComment" class="com.haike.json.utils.Comment"> -->
+	<!-- <property name="desc" value=""></property> -->
+	<!-- <property name="value" value=""></property> -->
+	<!-- </bean> -->
+
+	<!-- <bean id="beanField" class="com.haike.json.utils.Field"> -->
+	<!-- <property name="id" value=""></property> -->
+	<!-- <property name="name" value=""></property> -->
+	<!-- <property name="datatype" value=""></property> -->
+	<!-- <property name="length" value=""></property> -->
+	<!-- <property name="expr" value=""></property> -->
+	<!-- <property name="comments" ref="listComment"></property> -->
+	<!-- </bean> -->
+
+	<!-- <util:list id="listComment"> -->
+	<!-- <ref bean="beanComment" /> -->
+	<!-- <ref bean="beanComment" /> -->
+	<!-- </util:list> -->
+
+
+	<!-- <bean id="beanData" class="com.haike.json.utils.Data"> -->
+	<!-- <property name="code" value=""></property> -->
+	<!-- <property name="desc" value=""></property> -->
+	<!-- <property name="fields" ref="listField"></property> -->
+	<!-- </bean> -->
+
+	<!-- <util:list id="listField"> -->
+	<!-- <ref bean="beanField" /> -->
+	<!-- <ref bean="beanField" /> -->
+	<!-- </util:list> -->
+
+	<!-- <bean id="beanProtocol" class="com.haike.json.utils.Protocol" -->
+	<!-- init-method="init"> -->
+	<!-- <property name="status" value="ok"></property> -->
+	<!-- <property name="version" value="1"></property> -->
+	<!-- <property name="data" ref="listData"></property> -->
+	<!-- </bean> -->
+
+	<!-- <util:list id="listData"> -->
+	<!-- <ref bean="beanData" /> -->
+	<!-- <ref bean="beanData" /> -->
+	<!-- </util:list> -->
+
+	<!-- <bean id="privateProtocol" class="com.haike.json.utils.PrivateProtoclMap"> -->
+	<!-- <property name="protocolMap"> -->
+	<!-- <map> -->
+	<!-- <entry key="fangtai_led1" value-ref="beanProtocol"></entry> -->
+	<!-- <entry key="jiuyang_led2" value-ref="beanProtocol"></entry> -->
+	<!-- </map> -->
+	<!-- </property> -->
+	<!-- </bean> -->
+
+	<!-- <bean id="protocol" class="com.haike.protocol.utils.Protocol"> </bean> -->
+	<!-- <bean id="JOYOUNG_DEVICE_LED_1X_MID" class="com.haike.protocol.utils.Protocol"> -->
+	<!-- </bean> -->
+	<!-- <bean id="FOTILE_DEVICE_COOKER_12CC_MID" class="com.haike.protocol.utils.Protocol"> -->
+	<!-- </bean> -->
+	<!-- <bean id="GREE_DEVICE_WASHER_55_MID" class="com.haike.protocol.utils.Protocol"> -->
+	<!-- </bean> -->
+
+	<!-- 配置bean的后置处理器 -->
+	<bean class="com.haike.protocol.utils.MyBeanPostProcessor"></bean>
+<!-- 	<bean id="test" class="com.haike.protocol.utils.ProtocolModule"></bean> -->
+
+	<!-- <bean id= ></bean> -->
+
+
+</beans>

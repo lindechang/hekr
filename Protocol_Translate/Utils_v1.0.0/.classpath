@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="libs/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/ezmorph.jar"/>
+	<classpathentry kind="lib" path="libs/spring-aop-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-4.2.3.RELEASE.jar" sourcepath="E:/纳戒/学习文件/语言/JAVA/web服务器/spring-framework-4.2.3.RELEASE-dist/spring-framework-4.2.3.RELEASE/libs/spring-beans-4.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/spring-context-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jdbc-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-test-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-webmvc-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-websocket-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-expression-4.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="libs/jdom.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.6.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

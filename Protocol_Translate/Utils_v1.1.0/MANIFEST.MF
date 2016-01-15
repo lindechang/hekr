@@ -1,0 +1,9 @@
+Manifest-Version: 1.1  
+Class-Path: libs/commons-logging-1.1.1.jar 
+Class-Path: libs/spring-aop-4.2.3.RELEASE.jar 
+Class-Path: libs/spring-beans-4.2.3.RELEASE.jar 
+Class-Path: libs/spring-context-4.2.3.RELEASE.jar 
+Class-Path: libs/spring-core-4.2.3.RELEASE.jar 
+Class-Path: libs/spring-expression-4.2.3.RELEASE.jar 
+Main-Class: com.haike.protocol.utils.MainImpl
+
